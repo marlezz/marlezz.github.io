@@ -1,0 +1,152 @@
+body {
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0B0c10;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: #0B0c10;
+    padding: 10px;
+    flex-grow: 1;
+    min-height: 130vh;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: #C5C6C7;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.autor-img {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #C5C6C7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1F2833;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: inline;
+    float: left;
+}
+
+section {
+    margin-left: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+
+.product-tile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product {
+    border: 1px solid #66FCF1;
+    padding: 10px;
+    width: 250px; 
+    height: 370px;
+}
+
+.product-img {
+    width: 100%;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 150px; 
+    height: 100px;
+}
+
+.autor-container {
+    display: flex;
+    align-items: center;
+}
+
+.autor-img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.autor-info {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.autor-info td {
+    padding: 10px;
+    border-bottom: 1px solid #C5C6C7;
+}
+
+.autor-info td:first-child {
+    font-weight: bold;
+}
