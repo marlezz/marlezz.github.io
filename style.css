@@ -150,3 +150,43 @@ header {
 .autor-info td:first-child {
     font-weight: bold;
 }
+
+.autor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .autor-info {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  @media (max-width: 600px) {
+    .autor-container {
+      flex-direction: column-reverse;
+    }
+  
+    .autor-img {
+      margin-bottom: 10px;
+    }
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
